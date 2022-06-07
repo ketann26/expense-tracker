@@ -24,13 +24,13 @@
             <div class="col-md-4">
                 <div class="card mt-50">
                     <div class="card-body">
-                        <form>
+                        <form class="form" method="POST" action="/add_user">
                             <label>Name</label>
-                            <input type="text" class="form-control"><br>
+                            <input type="text" class="form-control" name="uname"><br>
                             <label>Email</label>
-                            <input type="email" class="form-control"><br>
+                            <input type="email" class="form-control" name="uemail"><br>
                             <label>Password</label>
-                            <input type="password" class="form-control"><br>
+                            <input type="password" class="form-control" name="upassword"><br>
                             <input type="submit" class="btn btn-primary btn-block btn-lg" val="Login">
                         </form>
                         <p class="mt-2">Already a member? <a href="/">Login</a></p>

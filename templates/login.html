@@ -24,11 +24,11 @@
             <div class="col-md-4">
                 <div class="card mt-50">
                     <div class="card-body">
-                        <form>
+                        <form class="form" method="POST" action="/login_validation">
                             <label>Email</label>
-                            <input type="email" class="form-control"><br>
+                            <input type="email" class="form-control" name="email"><br>
                             <label>Password</label>
-                            <input type="password" class="form-control"><br>
+                            <input type="password" class="form-control" name="password"><br>
                             <input type="submit" class="btn btn-primary btn-block btn-lg" val="Login">
                         </form>
                         <p class="mt-2">Not a member? <a href="/register">Register</a></p>
